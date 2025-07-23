@@ -97,8 +97,8 @@ button:hover {
 /* Responsividade para telas menores */
 @media (max-width: 500px) {
   main {
-    width: 95vw;
-    max-width: 100vw;
+    width: 90vw;
+    max-width: 95vw;
     margin: 16px auto;
     padding: 16px;
     height: auto;
@@ -121,4 +121,13 @@ button:hover {
     padding-bottom: 20px;
     position: static; /* Para não sobrepor o conteúdo */
   }
+    header, footer {
+    width: 100vw;
+    min-width: 100vw;
+    left: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  /* ...restante do seu código... */
 }
+
