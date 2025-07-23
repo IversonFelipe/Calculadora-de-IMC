@@ -103,7 +103,7 @@ button:hover {
   width: 100%;
   display: flex;
   align-items: center;
-  justify-content: center;
+  
 }
   header{
     background-color: rgb(102, 124, 77);
@@ -113,11 +113,11 @@ button:hover {
   width: 100%;
   }
   main {
-    width: auto;
+    width: 100%;
     max-width: auto;
-   margin:  auto;
+    margin:  auto;
     padding: auto;
-    height: auto;
+ 
     align-items: center;
 
     
