@@ -95,8 +95,15 @@ button:hover {
 }
 /* Responsividade para telas menores */
 @media (max-width: 500px) {
+  header{
+    background-color: rgb(102, 124, 77);
+  color: black;
+  padding: 50px;
+  text-align: center;
+  width: 100%;
+  }
   main {
-    width: 95vw;
+    width: 100%;
     min-width: 0;
     padding: 20px;
     height: auto;
