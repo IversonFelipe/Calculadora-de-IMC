@@ -111,11 +111,12 @@ button:hover {
   main {
     width: auto;
     min-width: auto;
-    padding: 20px;
+    padding: auto;
     height: auto;
+
   }
   input {
-    width: 100%;
+    width: auto;
     font-size: 1.1em;
   }
   button {
