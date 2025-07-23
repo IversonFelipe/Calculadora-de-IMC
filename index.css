@@ -111,9 +111,8 @@ button:hover {
   main {
     width: 95vw;
     max-width: 100vw;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 20px;
+   margin:  16px auto;
+    padding: 16px;
     height: auto;
     
 
