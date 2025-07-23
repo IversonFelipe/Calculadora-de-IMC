@@ -117,6 +117,8 @@ button:hover {
    margin:  16px auto;
     padding: 16px;
     height: auto;
+    align-items: center;
+    
     
 
   }
