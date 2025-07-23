@@ -37,6 +37,7 @@ main {
   margin-top: 32px;
   margin-left: auto;
   margin-right: auto;
+  align-items: center;
 
   padding: 42px;
   height: 250px;
@@ -118,7 +119,7 @@ button:hover {
     padding: 16px;
     height: auto;
     align-items: center;
-    
+
     
 
   }
@@ -138,6 +139,6 @@ button:hover {
     font-size: 0.9em;
     padding-top: 20px;
     padding-bottom: 20px;
-    position: fixed;
+    
   }
 }
