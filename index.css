@@ -1,0 +1,121 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+header {
+  background-color: rgb(102, 124, 77);
+  color: black;
+  padding: 50px;
+  text-align: center;
+}
+body {
+  background: rgb(192, 192, 192);
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+
+h1 {
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: underline;
+  padding: 15px;
+  font-family: "Georgia", "Times New Roman", serif;
+  font-size: 2.8em;
+  letter-spacing: 2px;
+}
+
+p {
+  text-align: center;
+}
+
+main {
+  background: linear-gradient(90deg, rgb(102, 124, 77), rgb(65, 78, 50));
+  border: 0px solid transparent;
+  border-radius: 15px;
+  color: #fff;
+  display: block;
+  margin-top: 32px;
+  margin-left: auto;
+  margin-right: auto;
+
+  padding: 42px;
+  height: 250px;
+  width: 400px;
+  text-align: center;
+}
+input {
+  text-align: center;
+  width: 90%;
+  padding: 15px;
+  border-radius: 5px;
+  border: 0px solid transparent;
+  color: rgb(0, 0, 0);
+  background-color: rgb(255, 255, 255);
+  cursor: pointer;
+}
+label {
+  padding: 10px;
+  display: block;
+}
+
+button {
+  width: 100%;
+  padding: 15px;
+  margin-top: 5px;
+  border-radius: 20px;
+  border: 0px solid transparent;
+  color: rgb(255, 255, 255);
+  background-color: black;
+  cursor: pointer;
+
+}
+
+footer {
+  background-color: rgb(102, 124, 77);
+  color: black;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  text-align: center;
+  width: 100%;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+
+  z-index: 10;
+  font-family: "Georgia", "Times New Roman", serif;
+}
+.perigo {
+  color: red;
+  font-weight: bold;
+}
+button:hover {
+  background-color: rgb(13, 238, 47);
+  color: rgb(0, 0, 0);
+  transition: background 0.3s, color 0.3s;
+}
+/* Responsividade para telas menores */
+@media (max-width: 500px) {
+  main {
+    width: 95vw;
+    min-width: 0;
+    padding: 20px;
+    height: auto;
+  }
+  input {
+    width: 100%;
+    font-size: 1.1em;
+  }
+  button {
+    font-size: 1.1em;
+    padding: 12px;
+  }
+  h1 {
+    font-size: 2em;
+    padding: 10px;
+  }
+  footer {
+    font-size: 0.9em;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+}
