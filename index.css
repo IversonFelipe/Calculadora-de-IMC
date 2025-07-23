@@ -113,10 +113,10 @@ button:hover {
   width: 100%;
   }
   main {
-    width: 95vw;
+    width: auto;
     max-width: auto;
-   margin:  16px auto;
-    padding: 16px;
+   margin:  auto;
+    padding: auto;
     height: auto;
     align-items: center;
 
